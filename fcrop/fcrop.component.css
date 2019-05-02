@@ -1,0 +1,66 @@
+.bg {
+    /* The image used */
+    background-image: url("/assets/img/fcorpbg1.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+.fcrop-body
+{
+  font-family: 'PT Serif', serif;
+  padding-top:10px;
+  padding-left:450px;
+  padding-bottom:50px;
+  padding-right:100px;
+  
+
+}
+.fcrop-body1
+{
+  font-family: 'PT Serif', serif;
+  padding-top:5px;
+  padding-left:30px;
+}
+.fcrop-abb,.fcrop-info
+{
+  border-radius: 25px;
+  background: rgba(255, 250, 230,0.4);
+  padding: 20px; 
+  width: 450px;
+  height: 420px; 
+}
+.abb
+{
+	font-family: 'Fredericka the Great', cursive;
+	font-size:40px;
+}
+.span-abb
+{
+	font-family: 'PT Serif', serif;
+	font-size:30px;
+}
+h1 
+{
+	font-size:48px;
+  text-align: center;
+}
+.span-subtitle
+{
+	font-family: 'PT Serif', serif;
+	font-size:35px;
+  text-align: center;
+}
+.table {
+    margin: auto;
+    width: 50% !important; 
+ }
+ .table td {
+    text-align: center; 
+ }
+/*---------------------------------------------------*/

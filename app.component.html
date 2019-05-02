@@ -1,0 +1,35 @@
+<nav class="navbar navbar-inverse" *ngIf="!service.status">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" [routerLink]="['fcrop']"><b><font size="5">FCROP</font></b></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="#" [routerLink]="['home']"><b><font size="4">Home</font></b></a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b><font size="4">Major Crops</font></b><span class="caret"></span></a>
+        <ul class="dropdown-menu">
+
+          <li><a href="#"  [routerLink]="['wheat']"><b><font size="3">Wheat</font></b></a></li>
+          <li class="divider"></li>
+          <li><a href="#" [routerLink]="['rice']"><b><font size="3">Rice</font></b></a></li>
+          <li class="divider"></li>
+          <li><a href="#" [routerLink]="['pulses']"><b><font size="3">Pulses</font></b></a></li>
+          <li class="divider"></li>
+          <li><a href="#" [routerLink]="['jute']"><b><font size="3">Jute</font></b></a></li>
+          <li class="divider"></li>
+          <li><a href="#" [routerLink]="['sugarcane']"><b><font size="3">Sugarcane</font></b></a></li>
+          <li class="divider"></li>
+          <li><a href="#" [routerLink]="['maize']"><b><font size="3">Maize</font></b></a></li>
+          
+        </ul>
+      </li>
+      <li><a href="#" [routerLink]="['programmes']"><b><font size="4">Programmes and Schemes</font></b></a></li>
+      <li><a href="#" [routerLink]="['contact']"><b><font size="4">Contact Us</font></b></a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#" [routerLink]="['signup']" ><span class="glyphicon glyphicon-user"></span><b><font size="4">Sign Up</font></b></a></li>
+      <li><a href="#" [routerLink]="['login']" ><span class="glyphicon glyphicon-log-in"></span><b><font size="4">Login</font></b></a></li>
+    </ul>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>

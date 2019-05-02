@@ -1,0 +1,76 @@
+.bg {
+    /* The image used */
+    background-image: url("/assets/season/about_bg2.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+.fcrop-body
+{
+	font-family: 'PT Serif', serif;
+	padding-top:10px;
+	padding-left:400px;
+	padding-bottom:50px;
+	padding-right:400px;
+}
+.fcrop-info
+{
+	border-radius: 25px;
+    /*background: rgba(255, 245, 204,0.25);*/
+    background: yellowgreen;
+	padding: 20px; 
+	width: 450px;
+    height: 420px; 
+    
+}
+ .fcrop-about
+ {
+	padding: 35px;
+	border-radius: 25px;
+    background: yellowgreen;
+    
+	width: 1020px;
+    height: 520px; 
+    
+    padding-right: 80px;
+ }
+h1 
+{
+	font-size:48px;
+	text-align: center;
+}
+h2
+{
+	font-size:35px;
+	text-align: center;
+}
+.about-us,.we-do
+ {
+	font-family: 'PT Serif', serif;
+	font-size:20px;
+     text-align: justify;
+     text-decoration-color: black;
+ }
+ .fcrop-body1
+{
+  font-family: 'PT Serif', serif;
+  padding-top:5px;
+  padding-left:30px;
+}
+.whole-body
+{
+	font-family: 'PT Serif', serif;
+	padding-top:10px;
+	padding-left:100px;
+	padding-bottom:50px;
+	padding-right:100px;
+}
+.main2{
+    padding-left: 80px;
+}

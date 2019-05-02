@@ -1,0 +1,75 @@
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="../assets/img/img1.jpg" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="../assets/img/img2.jpg" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="../assets/img/img3.jpeg" alt="New york" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<br><br>
+<div class="container-fluid">
+<h2 style="text-align:center">Getting to know better.</h2> 
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a [routerLink]="['/farmer']">
+          <img src="../assets/thumbnails/pic1.jpg" class="img-circle" alt="Lights" style="width:80%; height:200px;">
+          <div class="caption">
+            <p class="link">Our Farmers</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a  [routerLink]="['/about']">
+          <img src="../assets/thumbnails/pic2.jfif" class="img-circle" alt="Nature" style="width:80%; height:200px;">
+          <div class="caption">
+            <p class="link">About Us</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a [routerLink]="['/seasons']">
+          <img src="../assets/thumbnails/pic3.jfif" class="img-circle" alt="Fjords" style="width:80%; height:200px;">
+          <div class="caption">
+            <p class="link">Seasons in India.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+<div class="hello"><a href="#"  [routerLink]="['/about']">About Us &nbsp; </a>
+  <a href="#"  [routerLink]="['/contact']">Contact Us &nbsp; </a>
+  <a href="#"  [routerLink]="['/farmer']">Farmers &nbsp; </a>
+  <a href="#"  [routerLink]="['/contact']">Our Services &nbsp; </a><p>  FCROP&copy;</p>
+</div>
