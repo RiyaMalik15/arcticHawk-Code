@@ -1,0 +1,39 @@
+.bg {
+    /* The image used */
+    background-image: url("/assets/img/img5.jfif");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .titlebold2{
+      text-align: center;
+
+  }
+  h1 {text-align:center;
+    color: green;
+    font-size: 40px;
+    }
+    
+    img {
+      float: left;
+    }
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 50%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }

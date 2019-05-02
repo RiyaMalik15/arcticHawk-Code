@@ -1,0 +1,57 @@
+
+  .parent{
+    position: relative;
+}
+.background{
+    position:absolute;
+    background: url("/assets/season/service_bg.jpg")no-repeat center center fixed;
+    
+    width: 100%;
+    height: 119%;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 40%;
+
+}
+.foreground{
+    position: relative;
+}
+.panel > .panel-heading {
+  
+  background-image:none;
+  background-color: #347C22;
+  color: white;
+
+}
+body { 
+  background: url('/assets/season/img1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+ 
+ 
+ .form-group.last {
+  margin-bottom:0px;
+  padding-left: 50px;
+  padding-right: 50px;
+ }
+
+ #state, #district,#season, #crop, #area{
+   width: 315px;
+   height: 30px;
+ }
+
+ #state1{
+   padding-left: 20px;
+ }
+
+ .form-group{
+   padding-left: 20px;
+ }
+
+
+

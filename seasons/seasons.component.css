@@ -1,0 +1,40 @@
+.bg {
+    /* The image used */
+    background-image: url("/assets/season/grass1.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+h1{
+    text-align: center;
+}
+p{
+    font-size: 16px;
+}
+.btn-primary.winter-btn {
+	background-color: rgb(30, 177, 214);
+	border-color: rgb(30, 177, 214);;
+}
+.btn-primary.hot-btn {
+	background-color: rgb(240, 81, 24);
+	border-color: rgb(240, 81, 24);
+}
+.btn-primary.monsoon-btn {
+	background-color: rgb(36, 212, 243);
+	border-color:  rgb(36, 212, 243);
+}
+.btn-primary.spring-btn {
+	background-color: rgb(226, 60, 124);
+	border-color: rgb(226, 60, 124);
+}
+.container .buttons1{
+    text-align: center;
+}
+.container{
+    color: black;
+}

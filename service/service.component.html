@@ -1,0 +1,45 @@
+<nav class="navbar navbar-inverse" *ngIf="service.status">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" routerLink='prediction' (click)="change()"><b><font size="5">FCROP</font></b></a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#" routerLink='custhome' (click)="change()"><b><font size="4">Home</font></b></a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b><font size="4">Major Crops</font></b><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+  
+            <li><a href="#" routerLink='custwcrop' (click)="change()"><b><font size="3">Wheat</font></b></a></li>
+            <li class="divider"></li>
+            <li><a href="#" routerLink='custrcrop' (click)="change()"><b><font size="3">Rice</font></b></a></li>
+            <li class="divider"></li>
+            <li><a href="#" routerLink='custpcrop' (click)="change()"><b><font size="3">Pulses</font></b></a></li>
+            <li class="divider"></li>
+            <li><a href="#" routerLink='custjcrop' (click)="change()"><b><font size="3">Jute</font></b></a></li>
+            <li class="divider"></li>
+            <li><a href="#" routerLink='custscrop' (click)="change()"><b><font size="3">Sugarcane</font></b></a></li>
+            <li class="divider"></li>
+            <li><a href="#" routerLink='custmcrop' (click)="change()"><b><font size="3">Maize</font></b></a></li>
+            
+          </ul>
+        </li>
+        <li><a href="#" routerLink='custps' (click)="change()"><b><font size="4">Programmes and Schemes</font></b></a></li>
+        <li><a href="#" routerLink='custcontact' (click)="change()"><b><font size="4">Contact Us</font></b></a></li>
+       
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+          <li class="hello"><input type="text" placeholder="Search.." name="search">
+            <button type="submit"  class="btn btn-primary">Search</button></li>
+          <li><a href="#" routerLink='profile' (click)="change()"><span class="glyphicon glyphicon-user"></span><b><font size="4">Profile</font></b></a></li>
+        <li><a href="#" (click)="logout()" ><span class="glyphicon glyphicon-user"></span><b><font size="4">Logout</font></b></a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+
+    <!-- My service navbar end -->  
+<router-outlet></router-outlet>
+
+<div *ngIf="predictionstatus">
+  <app-prediction></app-prediction>
+</div>
